@@ -1,0 +1,17 @@
+meta {
+  name: SG-weather
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://api.weatherapi.com/v1/current.json?key=70b2f476e6ac4e8f94b23352252101&q=Singapore&aqi=no
+  body: none
+  auth: none
+}
+
+params:query {
+  key: 70b2f476e6ac4e8f94b23352252101
+  q: Singapore
+  aqi: no
+}
