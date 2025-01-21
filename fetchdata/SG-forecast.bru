@@ -1,0 +1,19 @@
+meta {
+  name: SG-forecast
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://api.weatherapi.com/v1/forecast.json?key=70b2f476e6ac4e8f94b23352252101&q=Singapore&days=3&aqi=no&alerts=no
+  body: none
+  auth: none
+}
+
+params:query {
+  key: 70b2f476e6ac4e8f94b23352252101
+  q: Singapore
+  days: 3
+  aqi: no
+  alerts: no
+}
